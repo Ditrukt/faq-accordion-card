@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <link href="https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@400;700&amp;display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+  <title>FAQ Accordion Card</title>
+
+  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+  <style>
+    .attribution { font-size: 11px; text-align: center; }
+    .attribution a { color: hsl(228, 45%, 44%); }
+  </style>
+</head>
+
+<body>
+  <script src="script.js" defer></script>
+  <main>
+    <div class="card">
+      <div class="leftcomponent">
+        <div class="desktop">
+          <div>
+            <img src="images\illustration-woman-online-desktop.svg" alt="illustration" class="woman">
+          </div>
+          <img src="images\illustration-box-desktop.svg" alt="illustration" class="box-img">
+        </div>
+        <div class="mobile">
+          <img src="images\illustration-woman-online-mobile.svg" alt="illustration" class="woman">
+          <img src="images\bg-pattern-mobile.svg" alt="illustration" class="bg">
+        </div>
+      </div>
+      <div class="rightcomponent">
+        <h1>FAQ</h1>
+        <div class="accordion-block">
+          <button class="accordion">How many team members can I invite?</button>
+          <p class="panel">
+            You can invite up to 2 additional users on the Free plan. There is no limit on
+            team members for the Premium plan.
+          </p>
+        </div>
+        <div class="accordion-block">
+          <button class="accordion">What is the maximum file upload size?</button>
+          <p class="panel">No more than 2GB. All files in your account must fit your allotted storage space.</p>
+  
+        </div>
+        <div class="accordion-block">
+          <button class="accordion">How do I reset my password?</button>
+          <p class="panel">
+            Click “Forgot password” from the login page or “Change password” from your profile page.
+            A reset link will be emailed to you.
+          </p>
+  
+        </div>
+        <div class="accordion-block">
+          <button class="accordion">Can I cancel my subscription?</button>
+          <p class="panel">Yes! Send us a message and we'll process your request no questions asked.</p>
+    
+        </div>
+        <div class="accordion-block">
+          <button class="accordion">Do you provide additional support?</button>
+          <p class="panel">
+            Chat and email support is available 24/7. Phone lines are open during normal business hours.
+          </p>
+        </div>
+      </div>
+    </div>
+
+    <div class="attribution">
+      Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+      Coded by <a href="#">Ditrukt</a>.
+    </div>
+  </main>
+</body>
+</html>
